@@ -1,0 +1,531 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.tile-gallery-block {
+		height: 200px;
+	}
+    .post-details {
+        width: 55%;
+		padding: 5px 20px;
+    }
+    .post-thumbnail {
+        width: 45%;
+    }
+    .post-author p {
+        margin: 6px 0 3px;
+    }
+	.post-details a.read-more {
+		margin-top: 6px;
+	}
+	.widget-blog-info {
+		width: 100%;
+		padding: 0;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.widget-single-blog {
+		display: inline-block;
+		width: 100%;
+	}
+	.widget-blog-img {
+		text-align: center;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hero-area {
+		padding: 75px 0 25px;
+	}
+	.menubar .logo {
+		padding: 15px 0;
+	}
+	.menubar li {
+		padding-left: 10px;
+		font-size: 13px;
+	}
+	.hero-area p {
+		margin: 0 0 25px;
+	}
+	.about-area-info {
+		margin-top: 40px;
+	}
+	.tile-gallery-block {
+		width: 49%;
+		height: 220px;
+	}
+	.cd-horizontal-timeline .events-content ul li {
+		line-height: 30px;
+	}
+	.cd-horizontal-timeline .events-content ul {
+		margin: 0 0 25px;
+	}
+	.timeline-para p {
+		margin-bottom: 12px;
+	}
+	.our-foods-list {
+		padding: 20px 15px;
+	}
+	.our-foods-icon {
+		margin-right: 15px;
+	}
+	.our-foods-icon i {
+		font-size: 40px;
+	}
+	.single-product-img img {
+		width: 100%;
+	}
+	.product-gallery .col-lg-3 {
+		padding: 0 15px;
+	}
+	.contact-area .container::before {
+		display: none;
+	}
+	.contact-us-area {
+		margin: 20px 0;
+	}
+	.product-discount {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.product-details-btn .aquaponic-btn {
+		margin-bottom: 10px;
+		padding: 10px 25px;
+	}
+	.product-details-content {
+		padding-left: 0;
+	}
+	.product-details-form button {
+		margin-top: 10px;
+	}
+	.widget {
+		margin: 30px 0 0;
+	}
+	.pagination {
+		margin-bottom: 30px;
+	}
+	.widget-blog-info {
+		width: 78%;
+	}
+	.widget-blog-img {
+		width: 22%;
+	}
+	.post-thumbnail {
+		width: 45%;
+	}
+	.post-details {
+		padding: 5px 20px;
+		width: 55%;
+	}
+	.post-author p {
+		margin: 5px 0 3px;
+	}
+	.post-details a.read-more {
+		margin-top: 5px;
+	}
+	.breadcrumb-area {
+		padding: 100px 0 90px;
+	}
+	.cd-horizontal-timeline >.events-content> ol {
+		padding: 0 40px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.responsive-menu {
+		display: block;
+	}
+	.mainmenu {
+		display: none;
+	}
+	.menubar .logo {
+		text-align: center;
+	}
+	header.header-area .header-right-content li:nth-child(2) {
+		position: static;
+	}
+	.login-popup {
+		right: 0;
+	}
+	.slicknav_menu {
+		text-align: center;
+	}
+	.slicknav_btn {
+		display: inline-block;
+		background: transparent;
+	}
+	.slicknav_menu .slicknav_menutxt {
+		display: none;
+	}
+	.menubar li a {
+		padding: 5px 0;
+	}
+	.hero-area {
+		padding: 75px 0 25px;
+	}
+	.hero-area h1 {
+		padding-bottom: 10px;
+		font-size: 32px;
+	}
+	.owl-dots {
+		margin-top: 40px;
+	}
+	.about-area-info {
+		margin-top: 35px;
+	}
+	.tile-gallery-block {
+		width: 49%;
+		height: 200px;
+	}
+	.timeline-para p {
+		margin-bottom: 10px;
+	}
+	.cd-horizontal-timeline .events-content ul {
+		margin: 10px 0 20px;
+	}
+	.cd-horizontal-timeline .events-content ul li {
+		line-height: 25px;
+		padding-left: 30px;
+	}
+	.video-play {
+		padding: 50px 0;
+	}
+	.video-play i {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 18px;
+	}
+	.product-advantages-chart {
+		margin-bottom: 15px;
+	}
+	.single-product-img img {
+		width: 100%;
+	}
+	.testimonial-single-slide-desc {
+		padding: 50px 20px 30px;
+	}
+	.testimonial-area .sec-title {
+		margin-bottom: 0;
+	}
+	.product-gallery .col-lg-3 {
+		padding: 0 15px;
+	}
+	.contact-area .container::before {
+		display: none;
+	}
+	.contact-us-area {
+		margin: 20px 0;
+	}
+	.contact-form button {
+		float: none;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer-menu {
+		float: none;
+		margin-top: 15px;
+	}
+	.header-area {
+		text-align: center;
+	}
+	header.header-area .header-left-content li {
+		border: 0;
+		padding: 0 5px;
+		margin: 0 5px;
+	}
+	.header-right-content {
+		float: none;
+		margin-top: 20px;
+	}
+	.our-foods-list {
+		padding: 20px 15px;
+	}
+	.our-foods-icon {
+		margin-right: 15px;
+	}
+	.our-foods-icon i {
+		font-size: 40px;
+	}
+	.product-discount {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.product-details-content {
+		padding-left: 0;
+	}
+	.nav-item {
+		margin-right: 15px;
+	}
+	.nav-item a {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.single-post .flexbox-center {
+		display: block;
+	}
+	.post-thumbnail {
+		width: 100%;
+	}
+	.post-thumbnail img {
+		margin: auto;
+		display: block;
+	}
+	.post-details {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.single-post {
+		padding: 30px 10px;
+	}
+	.post-meta {
+		margin-top: 15px;
+		text-align: center;
+	}
+	.post-meta a {
+		margin-left: 0;
+		margin-right: 20px;
+	}
+	.widget {
+		margin: 30px 0 0;
+	}
+	.pagination {
+		margin-bottom: 30px;
+	}
+	.choose-us {
+		padding-bottom: 550px;
+	}
+	.our-foods {
+		margin-top: -540px;
+	}
+	.widget-blog-info {
+		width: 75%;
+	}
+	.widget-blog-img {
+		width: 25%;
+	}
+	.breadcrumb-area {
+		padding: 70px 0 65px;
+	}
+	.mr-50 {
+		margin-right: 0;
+	}
+	.single-blog-details p {
+		margin-top: 15px;
+	}
+	.blog-details .post-meta::before {
+		width: 100%;
+		right: 0;
+	}
+	.blog-details .video-play {
+		margin: 20px 0 0;
+	}
+	.single-cart-overview-head .text-center {
+		text-align: left !important;
+	}
+	.single-cart-overview-head .price-tag {
+		text-align: left;
+	}
+	.single-cart-overview-head .col-md-4 {
+		margin-bottom: 15px;
+	}
+	.single-cart-overview-desc p {
+		margin: 10px 0 15px;
+	}
+	.checkout-area .contact-form .aquaponic-btn {
+		margin-top: 0;
+	}
+	.promo-code-form {
+		margin-bottom: 35px;
+	}
+	.contact-form form img {
+		margin-left: 5px;
+		margin-right: 20px;
+	}
+	.contact-agreement {
+		position: relative;
+		padding-left: 25px;
+	}
+	.contact-agreement input[type="checkbox"] {
+		position: absolute;
+		left: 0;
+		height: 18px;
+		top: 3px;
+		width: 13px;
+	}
+	.payment-method .contact-form p {
+		margin-left: 0;
+	}
+	.footer-menu li {
+		padding: 0 5px;
+	}
+	.single-member-img img {
+		width: auto;
+	}
+	.cd-horizontal-timeline .events-wrapper {
+		margin: 0;
+	}
+	.cd-horizontal-timeline >.events-content> ol {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 575px){
+	.max-width-320 {
+		max-width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tile-gallery-block {
+		width: 99%;
+	}
+	.menubar li {
+		padding-left: 0;
+	}
+	.logo img {
+		position: absolute;
+		top: 5px;
+		z-index: 9;
+		width: 40%;
+		max-height: 40px;
+		left: 15px;
+		display: inline-block;
+	}
+	.slicknav_btn {
+		padding: 0;
+	}
+	.slicknav_nav .slicknav_row, .slicknav_nav a {
+		padding: 5px 0;
+	}
+	.slicknav_nav {
+		margin-top: 40px;
+	}
+	.slicknav_menu {
+		margin: 0 0 10px;
+	}
+	.product-details-form input {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.product-details-form .dropdowns-select {
+		display: block;
+		margin: 0 0 15px;
+	}
+	.product-details-form button {
+		width: 100%;
+	}
+	.product-details-left {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.product-details-category ,
+	.product-details-price {
+		margin: 15px 0 5px;
+	}
+	.product-details-btn .aquaponic-btn {
+		margin-right: 0;
+	}
+	.product-details-btn {
+		text-align: center;
+	}
+	.product-details-content .product-icon {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+	}
+	.product-details-content .product-icon a {
+		display: inline-block;
+	}
+	.product-details-form .dropdowns-select select {
+		width: 100%;
+	}
+	.nav-item {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.post-details {
+		padding: 0 10px;
+	}
+	blockquote {
+		margin: 15px 0;
+		padding: 25px 10px 10px;
+	}
+	.single-blog-details, .blog-details .contact-form {
+		padding: 15px;
+	}
+	blockquote:before {
+		top: 5px;
+		left: 0;
+	}
+	.single-cart-overview-img {
+		width: 100%;
+		position: static;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.single-cart-overview-head,
+	.single-cart-overview-head .text-center,
+	.single-cart-overview-head .price-tag {
+		text-align: center !important;
+	}
+	.single-cart-overview {
+		padding-left: 0;
+	}
+	.breadcrumb-area h1 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.payment-method .contact-form {
+		padding: 30px;
+	}
+	.payment-method .contact-form h3 {
+		margin-bottom: 20px;
+	}
+	.login-popup {
+		right: 0;
+		width: 320px;
+	}
+	.login-popup .text-left, .login-popup .text-right {
+		text-align: center !important;
+	}
+	.contact-form input, .contact-form textarea {
+		padding: 5px 25px;
+	}
+	.total-price table {
+		margin-bottom: 45px;
+	    float: right;
+	}
+	.total-price {
+		text-align: center;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 380px){
+	.login-popup {
+		width: 100%;
+	}
+	.sign-with::before,
+	.sign-with::after {
+	    width: 20%;
+	}
+	.logo img {
+		width: 50%;
+	}
+	.choose-us {
+		padding-bottom: 650px;
+	}
+	.our-foods {
+		margin-top: -640px;
+	}
+	.contact-form {
+		text-align: center;
+	}
+	.contact-form button {
+		padding: 2px 30px;
+	}
+	.payment-method .contact-form p ,
+	.payment-method .contact-form label ,
+	.payment-method .contact-form h3 ,
+	.show-comments {
+		text-align: left;
+	}
+}

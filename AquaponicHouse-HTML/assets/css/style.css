@@ -1,0 +1,2183 @@
+/*
+Theme Name: Aquaponic House Bootstrap Template
+Theme URI: http://live.envalab.com/html/aquaponic-house
+Author: ENVALAB TEAM
+Author URI: http://envalab.com/
+Description: Aquaponic House Bootstrap Template that perfectly designed for aquaponic system house, organic farming business and Organic Store, including organic food, organic fruits and vegetables, organic farm, agricultural company or basically everything related to eco-friendly lifestyle. This template designed after a detailed analysis of other related websites and combines all the necessary features to meet the requirements of the pickiest customer.
+Version: 1.0
+*/
+
+/*
+CSS Indexing
+=> THEME DEFAULT CSS
+=> RESET CSS
+=> HEADER AREA CSS
+=> MENU AREA CSS
+=> HERO AREA CSS
+=> ABOUT AREA CSS
+=> TILE GALLERY AREA CSS
+=> TIMELINE AREA CSS 
+=> PRODUCT ADVANTAGES AREA
+=> CHOOSE US AREA
+=> PRODUCT GALLERY AREA
+=> TESTIMONIAL AREA CSS
+=> BLOG AREA CSS
+=> MEMBER AREA CSS
+=> CONTACT AREA CSS
+=> FOOTER AREA CSS
+=> PRODUCT PAGE CSS
+=> PRODUCT DETAIL PAGE
+=> BLOG PAGE CSS
+=> BLOG DETAIL PAGE
+=> CART OVERVIEW PAGE
+=> CHECKOUT PAGE CSS
+=> CART PAGE CSS
+=> 404 PAGE CSS
+=> LOGIN AND REGISTRATION FORM
+=> PRE LOADER STYING CSS
+*/
+
+/*----------------------------------
+--------- THEME DEFAULT CSS --------
+----------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body {
+    line-height: 25px;
+    font-size: 14px;
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*----------------------------
+---------- RESET CSS ---------
+----------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Lora', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 24px;
+	line-height: 35px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    transition: all 0.4s;
+}
+a,
+a:hover {
+    color: #313131;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    width: 100%;
+    border: none;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+button:focus {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    margin-bottom: 0;
+}
+select:focus,
+select:active {
+    box-shadow: none;
+    border: 0;
+    outline: 0
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+textarea {
+    background: #f1f1f1;
+    max-width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #f1f1f1;
+}
+textarea {
+	resize: none;
+}
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.default-bg {
+	background-color: #F9F9F9;
+}
+.sec-title {
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+.sec-title h2 {
+    margin-bottom: 20px;
+}
+.pt-65 {
+	padding-top: 65px;
+}
+.ptb-10 {
+    padding: 10px 0;
+}
+.ptb-30 {
+    padding: 30px 0;
+}
+.ptb-80 {
+    padding: 80px 0;
+}
+.ptb-90 {
+    padding: 90px 0;
+}
+.ptb-100 {
+    padding: 100px 0;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+.pb-75 {
+	padding-bottom: 75px;
+}
+.mtb-20 {
+    margin: 20px 0;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mt-35 {
+    margin-top: 35px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mr-50 {
+	margin-right: 50%;
+}
+.owl-nav div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20px;
+    background: #313131;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+	transition: 0.4s;
+	margin-top: -9px;
+}
+.owl-nav div:hover {
+	background: #f5a715;
+}
+.owl-nav div.owl-next {
+    right: 0;
+    left: auto;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 60px;
+}
+.owl-dot {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 3px;
+}
+.owl-dot.active {
+    border: 1px solid #fff;
+    background: transparent;
+}
+.read-more {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+}
+.read-more i {
+    margin-left: 5px;
+    transition: 0.4s;
+}
+.read-more:hover {
+    color: #f5a715;
+    opacity: 1;
+}
+.read-more:hover i {
+    margin-left: 10px;
+}
+.aquaponic-btn {
+    background: #f5a715;
+    border: 2px solid #f5a715;
+    color: #fff;
+    padding: 10px 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+	cursor: pointer;
+	transition: all 0.4s;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+.aquaponic-btn:hover {
+    background: transparent;
+    border: 2px solid #f5a715;
+    color: #f5a715;
+}
+.aquaponic-btn-blue {
+    background: transparent;
+    color: #313131;
+    border: 2px solid #59a934;
+}
+.aquaponic-btn-blue:hover {
+    background: #59a934;
+    color: #fff;
+    border: 2px solid #59a934;
+}
+.aquaponic-btn-white {
+    background: #fff;
+    color: #f5a715;
+    border: 2px solid #fff;
+	border-radius: 30px;
+}
+.aquaponic-btn-white:hover {
+    background: #f5a715;
+    color: #fff;
+}
+.dropdowns-select {
+    position: relative;
+}
+.dropdowns-select::after {
+    content: "\f107";
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    opacity: 0.9;
+    font-family: 'fontawesome';
+    margin-top: 15px;
+}
+.dropdowns-select select {
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -appearance: none;
+    padding: 15px 20px 15px 15px;
+    z-index: 6;
+    position: relative;
+    cursor: pointer;
+}
+.pagination {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+.pagination li {
+    display: inline-block;
+}
+.pagination li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #77bb17;
+    display: inline-block;
+    margin: 0 4px;
+    background: #fff;
+}
+.pagination li.active a,
+.pagination li:hover a {
+    background: #77bb17;
+    color: #fff;
+}
+.flexbox-center {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*--------------------------------------
+-------- HEADER AREA CSS START --------
+---------------------------------------*/
+header.header-area {
+    background: #3f7d20;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+header.header-area a {
+    color: #fff;
+}
+header.header-area li {
+    display: inline-block;
+}
+header.header-area .header-left-content li:last-child {
+    border: 0;
+}
+header.header-area .header-left-content li i {
+    margin-right: 6px;
+}
+header.header-area .header-left-content li {
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    margin-right: 15px;
+}
+header.header-area .header-right-content li {
+    padding-left: 15px;
+    border-left: 1px solid #ddd;
+    margin-left: 15px;
+    position: relative;
+}
+.header-right-content li:first-child::after {
+    content: "\f107";
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    opacity: 0.9;
+    font-family: 'fontawesome';
+}
+header.header-area .header-right-content li:first-child {
+    border: 0;
+}
+.header-right-content li select {
+    background: transparent;
+    color: #fff;
+    border: 0;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    padding-right: 20px;
+    z-index: 6;
+    position: relative;
+}
+.header-right-content {
+    float: right;
+    position: relative;
+}
+.header-right-content option {
+    background: #000000;
+}
+.header-right-content select {
+    cursor: pointer;
+}
+.login-with:hover i {
+    box-shadow: 0 0 15px #bbb;
+}
+a.aquaponic-cart {
+    padding-right: 18px;
+    font-size: 16px;
+}
+a.aquaponic-cart span {
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    right: 2px;
+    height: 20px;
+    width: 20px;
+    line-height: 18px;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 50%;
+	transition: all 0.4s;
+    background: #f5a715;
+	border: 2px solid #f5a715;
+}
+a.aquaponic-cart:hover span {
+	background: transparent;
+	color: #f5a715;
+	font-weight: 700;
+}
+.select-container {
+    position: relative;
+}
+.select-container select {
+    appearance: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    padding-right: 35px;
+}
+.select-container::after {
+    content: "\f107";
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    font-family: 'fontawesome';
+    font-size: 19px;
+}
+/*--------------------------------------
+--------- HEADER AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- MENU AREA CSS START --------
+---------------------------------------*/
+.menubar {
+    background: #59a934;
+    font-family: 'Lora', serif;
+}
+.menubar .logo {
+    padding: 7px 0;
+}
+.mainmenu {
+    float: right;
+}
+.menubar li {
+    display: inline-block;
+    padding-left: 15px;
+    position: relative;
+}
+.menubar li a {
+    color: #fff;
+    padding: 22px 0;
+    display: inline-block;
+    position: relative;
+}
+.menubar ul li a::before {
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    content: "";
+    transition: 0.3s;
+}
+.menubar ul li:hover a::before , .menubar ul li.active a::before {
+    width: 100%;
+}
+.mainmenu li a i {
+	margin-left: 5px;
+}
+.mainmenu li ul {
+    position: absolute;
+    left: 0;
+    top: 150%;
+    z-index: 99;
+    background: #313131;
+    width: 250px;
+    padding: 10px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.mainmenu li ul li {
+    display: block;
+}
+.mainmenu li ul li a {
+    padding: 7px 0;
+    color: #fff;
+    font-size: 90%;
+}
+.menubar ul li ul li a::before {
+    width: 0 !important;
+}
+.menubar ul li ul li:hover a::before , .menubar ul li ul li.active a::before {
+    width: 100% !important;
+}
+.mainmenu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.responsive-menu {
+    display: none;
+}
+.slicknav_nav {
+    background-color: #3f7d20;
+    padding: 5px 12px;
+    text-align: left;
+}
+.slicknav_nav li {
+    display: block;
+}
+.slicknav_nav li a i {
+	display: none;
+}
+.slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
+    background: transparent;
+    color: #fff;
+}
+.menubar ul li a a::before {
+    display: none;
+}
+a.slicknav_item.slicknav_row {
+    display: inline-block;
+}
+.slicknav_btn {
+    margin: 0;
+    border-radius: 0;
+}
+.slicknav_menu {
+    background: transparent;
+    margin-top: 10px;
+}
+/*--------------------------------------
+--------- MENU AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- HERO AREA CSS START --------
+---------------------------------------*/
+.hero-area {
+    background: url(../img/hero-area/livestock-2N2NDAG\ \(1\).jpg) no-repeat center center / cover;
+    position: relative;
+    color: #fff;
+    padding: 180px 0 25px;
+    text-align: center;
+}
+.hero-area h1 {
+    padding-bottom: 20px;
+}
+.hero-area::before,
+.breadcrumb-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    content: "";
+}
+.hero-area .aquaponic-btn {
+    border-radius: 30px;
+}
+.hero-area p {
+    margin: 10px 0 50px;
+}
+/*--------------------------------------
+--------- HERO AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- ABOUT AREA CSS START --------
+---------------------------------------*/
+.about-area-info p {
+    margin-top: 20px;
+}
+.about-area-info a {
+    margin-top: 25px;
+}
+/*--------------------------------------
+--------- ABOUT AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+------ TILE GALLERY AREA CSS START ------
+---------------------------------------*/
+.gallery {
+    background: #fbfbfb;
+}
+.sec-title {
+    margin-bottom: 30px;
+}
+.tile-gallery {
+    margin-left: -30px;
+    margin-right: -15px;
+}
+.tile-gallery-block {
+    margin-left: 1%;
+    width: 29%;
+    float: left;
+    margin-top: 1%;
+	position: relative;
+    background-position: center;
+    height: 255px;
+	background-size: cover;
+}
+.tile-gallery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 1;
+	transform: scaleX(0);
+    transition: all 0.4s;
+	text-align: center;
+}
+.tile-gallery-overlay a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #fff;
+	line-height: 40px;
+}
+.tile-gallery-overlay a:hover {
+	transform: rotate(90deg);
+}
+.tile-gallery-block:hover .tile-gallery-overlay {
+	transform: scaleX(1);
+}
+.tile-gallery-block-1 {
+    background-image: url(../img/gallery/firstBelge.jpg);
+    width: 34%;
+}
+.tile-gallery-block-2 {
+    background-image: url(../img/gallery/thirdBelge.jpeg);
+}
+.tile-gallery-block-3 {
+    background-image: url(../img/gallery/secondBelge.jpeg);
+    width: 34%;
+}
+.tile-gallery-block-4 {
+    background-image: url(../img/gallery/fourthBelge.jpeg);
+}
+.tile-gallery-block-5 {
+    background-image: url(../img/gallery/fifthBelge.jpeg);
+    width: 39%;
+}
+.tile-gallery-block-6 {
+    background-image: url(../img/gallery/sixthBelge.jpeg);
+}
+.tile-gallery-block-7 {
+    background-image: url(../img/gallery/seventhBelge.jpeg);
+}
+.tile-gallery-block-8 {
+    background-image: url(../img/gallery/eightBelge.jpeg);
+}
+.tile-gallery-block-9 {
+    background-image: url(../img/gallery/ninthBelge.jpeg);
+}
+.tile-gallery-block-10 {
+    background-image: url(../img/gallery/tenthBelge.jpeg);
+}
+.tile-gallery-block-11 {
+    background-image: url(../img/gallery/eleventhBelge.jpeg);
+}
+.tile-gallery-block-12 {
+    background-image: url(../img/gallery/twelfthBelge.jpeg);
+}
+.lb-data .lb-close {
+	background-image: url('../img/close.png');
+}
+.lb-nav a.lb-prev {
+	background-image: url('../img/prev.png');
+}
+.lb-nav a.lb-next {
+	background-image: url('../img/next.png');
+}
+/*--------------------------------------
+------ TILE GALLERY AREA CSS END -------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- TIMELINE AREA CSS START --------
+---------------------------------------*/
+.cd-horizontal-timeline .events a {
+    bottom: auto;
+    top: 100%;
+    padding: 20px 0 0;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cd-horizontal-timeline .events a::after {
+    bottom: auto;
+    top: -6px;
+}.timeline-para .links .li{
+    list-style: none;
+}
+.timeline-para .links .li .a{
+ display: inline;
+}
+.timeline-para h1 {
+    margin-bottom: 20px;
+}
+.timeline-para .gantep{
+    height: 100px;
+    margin-left: 50px;
+}
+.timeline-para .tarımBakanlığı{
+    height: 100px;
+    margin-left: 50px;
+}
+.timeline-para .eğitim{
+    height: 100px;
+    margin-left: 50px;
+}
+.timeline-para .aquaponic-btn {
+    border-radius: 30px;
+}
+.cd-horizontal-timeline .events-content ul {
+    margin: 10px 0 60px;
+}
+.cd-horizontal-timeline .events-content ul li {
+    position: relative;
+    opacity: 1;
+    left: auto;
+    top: auto;
+    line-height: 40px;
+    padding: 0;
+    padding-left: 50px;
+    transform: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.cd-horizontal-timeline .events-content ul li::before {
+    content: "\f178";
+    top: 0;
+    font-family: 'fontawesome';
+    left: 0;
+    line-height: 40px;
+    position: absolute;
+    color: #59a934;
+}
+.cd-horizontal-timeline .events-content ul li:hover {
+    padding-left: 40px;
+}
+.video-play {
+    background: url(../img/video-overview.png) no-repeat center / cover;
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.video-play a {
+    color: #fff;
+}
+.video-play::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    z-index: -1;
+}
+.video-play-border {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    border-left: 10px solid #59a934;
+    border-bottom: 10px solid #59a934;
+}
+.video-play-border::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 10px;
+    z-index: -1;
+    background: #59a934;
+}
+.video-play-border::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 20px;
+    z-index: -1;
+    background: #59a934;
+}
+.video-play a span {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: all 0.4s;
+}
+.video-play a span:hover {
+    color: #f5a715;
+}
+.video-play i {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 0 0 6px;
+    font-size: 25px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+.circled-icon {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    padding: 13px;
+    font-size: 32px;
+    display: inline-block;
+}
+.cd-horizontal-timeline .flexbox-center {
+    align-items: flex-end;
+}
+.video-play i:hover {
+    background: #f5a715;
+    border: 1px solid #f5a715;
+}
+.timeline-para,
+.video-play {
+    margin-top: 30px;
+}
+.timeline .events-wrapper ol {
+    padding: 0;
+}
+. {}
+/*--------------------------------------
+--------- TIMELINE AREA CSS END ---------
+---------------------------------------*/
+
+/*------------------------------------------
+---- PRODUCT ADVANTAGES AREA CSS START -----
+-------------------------------------------*/
+.product-advantage {
+    background: #fff;
+}
+.product-advantages-chart {
+    text-align: center;
+    margin-top: 15px;
+}
+.product-advantages-chart p {
+    margin-top: 35px;
+}
+/*--------------------------------------------
+------ PRODUCT ADVANTAGES AREA CSS END -------
+---------------------------------------------*/
+
+/*--------------------------------------
+-------- CHOOSE US AREA CSS START --------
+---------------------------------------*/
+.choose-us {
+    background: url(../img/reason-of-choose.jpg) no-repeat center / cover;
+    position: relative;
+    padding: 80px 0 230px;
+    color: #fff;
+}
+.choose-us::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #59a934;
+    opacity: .95;
+    content: "";
+}
+.our-foods {
+    margin-top: -250px;
+}
+.our-foods-list {
+    background: #fff;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 0 0 7px #eee;
+}
+.our-foods-icon {
+    margin-right: 20px;
+}
+.our-foods-icon i {
+    font-size: 50px;
+    color: #f5a715;
+    transition: all 0.4s;
+}
+.our-foods-info h4 {
+    margin-bottom: 10px;
+}
+.our-foods-list:hover i {
+    color: #59a934;
+}
+/*---------------------------------------
+--------- CHOOSE US AREA CSS END --------
+---------------------------------------*/
+
+/*----------------------------------------
+----- PRODUCT GALLERY AREA CSS START -----
+-----------------------------------------*/
+.product-gallery {
+    padding-bottom: 20px;
+}
+.product-gallery .sec-title {
+    padding-bottom: 20px;
+}
+.product-gallery .col-lg-3 {
+    padding: 0 5px;
+}
+.single-product-img {
+    position: relative;
+}
+.product-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.7);
+    transform: scaleY(0);
+    transition: all 0.4s;
+}
+.single-product-img:hover .product-img-overlay {
+    transform: scaleY(1);
+}
+.single-product-img .aquaponic-btn {
+    font-size: 12px;
+    padding: 5px 16px;
+    margin-top: 34%;
+    transform: scaleX(0);
+    transition: all 0.4s ease 0.4s;
+    opacity: 0;
+}
+.single-product-img:hover .aquaponic-btn {
+    transform: scaleX(1);
+    opacity: 1;
+}
+.single-product {
+    border: 1px solid #eee;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.single-product-info {
+    padding: 20px 0 0;
+    position: relative;
+    background: #fff;
+}
+.buy-product {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #59a934;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+.single-product-info .buy-product {
+    position: relative;
+    bottom: -19px;
+}
+.buy-product:hover {
+    background: #59a934;
+    border: 1px solid #59a934;
+    color: #fff;
+}
+.single-product-info h4 {
+    margin-top: 2px;
+    font-style: italic;
+}
+.single-product-info p a:hover {
+    color: #f5a715;
+}
+/*--------------------------------------
+----- PRODUCT GALLERY AREA CSS END ------
+---------------------------------------*/
+
+/*--------------------------------------
+------ TESTIMONIAL AREA CSS START ------
+---------------------------------------*/
+.testimonial-area {
+    background: url(../img/testimonial.jpg);
+    position: relative;
+}
+.testimonial-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    opacity: .95;
+    content: "";
+}
+.testimonial-single-slide-img {
+    width: 70px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    z-index: 9;
+}
+.testimonial-single-slide-desc {
+    background: #67c43d;
+    border-radius: 100px;
+    padding: 60px 50px 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.testimonial-single-slide-desc::before,
+.testimonial-single-slide-desc::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: transparent;
+    border-width: 12px 65px 15px 65px;
+    border-style: solid;
+    border-color: #57a434 #57a434 transparent #57a434;
+}
+.testimonial-single-slide-desc::after {
+    bottom: 0;
+    top: auto;
+    border-width: 15px 65px 12px 65px;
+    border-color: transparent #57a434 #57a434 #57a434;
+}
+.testimonial-single-slide {
+    color: #fff;
+}
+.testimonial-single-slide-img img {
+    border-radius: 100%;
+}
+.testimonial-single-slide-img i {
+    position: absolute;
+    right: -10px;
+    bottom: 10px;
+    border: 1px solid #fff;
+    background: #4467b1;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.testimonial-single-slide-img i.fa-twitter {
+    background: #23a0f2;
+}
+.testimonial-single-slide {
+    text-align: center;
+}
+.testimonial-area .owl-dot {
+    background: #e0e0e0;
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin: 0 7px;
+}
+.testimonial-area .owl-dot.active {
+    background: #f5a715;
+}
+/*--------------------------------------
+--------- TESTIMONIAL AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- BLOG AREA CSS START --------
+---------------------------------------*/
+.blog-area {
+    overflow: hidden;
+}
+.blog-slide {
+    padding: 0 8.33%;
+    margin-top: 30px;
+}
+.single-blog {
+    color: #fff;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/blog/1.jpg);
+    padding: 175px 15px 10px;
+    z-index: 1;
+}
+.single-blog.single-blog-bg-2 {
+    background-image: url(../img/blog/2.jpg);
+}
+.single-blog.single-blog-bg-3 {
+    background-image: url(../img/blog/3.jpg);
+}
+.single-blog::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, transparent 50%, transparent 50%), linear-gradient(360deg, #313131 30%, transparent 50%);
+    z-index: -1;
+    opacity: 0.7;
+}
+.single-blog h3 a {
+    color: #fff;
+}
+.single-blog h3 a:hover {
+    color: #f5a715;
+}
+.single-blog p {
+    font-size: 13px;
+}
+.single-blog span {
+    font-size: 12px;
+    display: block;
+    color: #f5a715;
+}
+.blog-slide .owl-nav div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    left: -90px;
+    margin-top: -40px;
+}
+.blog-slide .owl-nav div.owl-next {
+    left: auto;
+    right: -90px;
+}
+.blog-slide:hover .owl-prev {
+    left: 0;
+}
+.blog-slide:hover .owl-nav div.owl-next {
+    right: 0;
+}
+/*--------------------------------------
+--------- BLOG AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- MEMBER AREA CSS START --------
+---------------------------------------*/
+.team-member {
+    background: url(../img/reason-of-choose.jpg);
+    position: relative;
+}
+.team-member::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #59a934;
+    opacity: .95;
+    content: "";
+}
+.team-member .sec-title {
+    color: #fff;
+}
+.single-member {
+    margin: 20px 0 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 7px #eee;
+}
+.single-member-info {
+    padding: 18px 10px 12px;
+}
+.single-member-img img {
+	width: 100%;
+}
+.single-member-info p a {
+    font-weight: 700;
+	font-size: 16px;
+}
+.single-member-info p a:hover {
+    color: #f5a715;
+}
+.single-member-contact {
+    margin: 5px 0;
+}
+.single-member-info .read-more {
+    opacity: 0.7;
+}
+.single-member-contact a {
+    display: inline-block;
+    opacity: 0.7;
+    margin: 0 10px;
+}
+.single-member-contact a:hover {
+    opacity: 1;
+}
+/*--------------------------------------
+--------- MEMBER AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- CONTACT AREA CSS START --------
+---------------------------------------*/
+.contact-area .container {
+    position: relative;
+}
+.contact-area .container::before {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    left: 0;
+    height: 105%;
+    width: 2px;
+    background: #e5e5e5;
+    content: "";
+    margin: auto;
+}
+.contact-us-area p {
+    margin-top: 20px;
+}
+.contact-form button {
+    float: right;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    border-radius: 30px;
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 17px;
+    width: 100%;
+    padding: 12px 25px;
+}
+.contact-form textarea {
+    height: 90px;
+}
+.contact-container {
+    position: relative;
+    margin-bottom: 17px;
+}
+.contact-container input {
+    padding-right: 35px;
+    margin-bottom: 0;
+}
+.contact-container i {
+    position: absolute;
+    bottom: 40%;
+    right: 15px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+/*--------------------------------------
+--------- CONTACT AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- FOOTER AREA CSS START --------
+---------------------------------------*/
+.footer {
+    background: #59a934;
+    color: #fff;
+    font-weight: 500;
+}
+.footer a {
+    color: #fff;
+}
+.footer-menu {
+    float: right;
+}
+.footer-menu li {
+    display: inline-block;
+    padding-left: 15px;
+}
+.footer a:hover {
+    color: #f5a715;
+}
+.footer-copyright p a {
+    text-decoration: underline;
+}
+/*--------------------------------------
+--------- FOOTER AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- PRODUCT PAGE CSS START --------
+---------------------------------------*/
+.breadcrumb-area {
+    position: relative;
+    color: #fff;
+    background-image: url(../img/hero-area/livestock-2N2NDAG\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0 120px;
+    text-align: center;
+}
+.breadcrumb-area a {
+    color: #fff;
+}
+.breadcrumb-area h1 {
+    position: relative;
+    padding-bottom: 10px;
+    line-height: 70px;
+    display: inline-block;
+}
+.breadcrumb-area h1::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    margin: auto;
+    width: 50px;
+    height: 1px;
+    background: #f5a715;
+    transition: all 0.4s;
+}
+.breadcrumb-area h1:hover::before {
+    width: 100%
+}
+.breadcrumb-area ul {
+    margin-top: 20px;
+}
+.breadcrumb-area ul li {
+    color: #fff;
+    position: relative;
+    padding: 0 5px;
+    display: inline-block;
+}
+.breadcrumb-area ul li::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "/";
+    width: 0;
+    height: 0;
+}
+.breadcrumb-area ul li:last-child::before {
+    display: none;
+}
+.breadcrumb-area ul li.active a,
+.breadcrumb-area ul li a:hover {
+    color: #f5a715;
+}
+/*--------------------------------------
+--------- PRODUCT PAGE CSS END ---------
+---------------------------------------*/
+
+/*-----------------------------------------
+------ PRODUCT DETAIL PAGE CSS START ------
+------------------------------------------*/
+.carousel-indicators li {
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    margin: 0 5px;
+}
+.carousel-indicators {
+    bottom: auto;
+    margin: 25px 0 0;
+}
+.carousel .carousel-indicators li img {
+    max-height: 60px;
+    cursor: pointer;
+}
+.product-details .carousel {
+    padding-bottom: 110px;
+}
+.product-details-title h3::before {
+    z-index: 1;
+    line-height: 25px;
+    background: #59a934;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    border-radius: 30px;
+    max-width: 100%;
+    transition: 0.3s;
+}
+.product-details-title h3 {
+    position: relative;
+    display: inline-block;
+    line-height: 28px;
+    padding-bottom: 5px;
+}
+.product-details-title h3:hover::before {
+    width: 100%;
+}
+.product-details-price {
+    margin: 30px 0 15px;
+}
+.product-details-price p {
+    font-size: 24px;
+}
+.product-details-price del {
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    margin-left: 30px;
+    top: -5px;
+    position: relative;
+}
+.review-star i {
+    color: #59a934;
+}
+.product-details-category {
+    margin: 15px 0 30px;
+}
+.product-details-category p {
+    font-size: 16px;
+}
+.product-details-btn .aquaponic-btn {
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.product-details-btn .aquaponic-btn.aquaponic-btn-blue {
+    margin-right: 0;
+}
+.product-details-descrip {
+    margin-top: 15px;
+}
+.product-details-descrip p {
+    margin: 15px 0 30px;
+}
+.product-details-descrip a {
+    color: #59a934;
+    text-decoration: underline;
+}
+.product-details-descrip a:hover {
+    color: #313131;
+}
+.product-details-content {
+    padding-left: 20px;
+}
+.product-details-left {
+    float: left;
+    width: 90%;
+}
+.product-icon {
+    float: right;
+    width: 10%;
+    margin-top: 20px;
+}
+.product-details-content .product-icon a {
+    border: 1px solid #eee;
+    text-align: center;
+    margin: 0;
+    color: #59a934;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    opacity: 0.5;
+    display: block;
+}
+.product-details-content .product-icon a:hover {
+    opacity: 1;
+}
+.product-details-form input {
+    background: transparent;
+}
+.product-details-form .dropdowns-select {
+    display: inline-block;
+    border: 1px solid #eee;
+    margin: 0 10px;
+}
+.product-details-form .dropdowns-select select {
+    padding: 12px 20px 12px 15px;
+}
+.product-details-form {
+    margin-top: 20px;
+    display: none;
+}
+.product-discount {
+    background: url(../img/product-discount.jpg) no-repeat center / cover;
+    position: relative;
+    padding: 210px 15px 30px;
+    z-index: 1;
+    overflow: hidden;
+    margin-left: 30px;
+    text-align: center;
+}
+.product-discount::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000000;
+}
+.product-discount::before {
+    position: absolute;
+    top: -96px;
+    left: -96px;
+    content: "";
+    width: 270px;
+    height: 240px;
+    background: url(../img/discount-shape.png) no-repeat;
+    z-index: 2;
+}
+.get-discount {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    color: #fff;
+    z-index: 99;
+    transform: rotate(320deg);
+    text-align: left;
+}
+.get-discount h1 {
+    padding-left: 10px;
+    font-size: 36px;
+    line-height: 30px;
+}
+.get-discount p {
+    font-size: 16px;
+}
+.tab-accordion {
+    padding: 15px 30px 30px;
+    border: 1px solid #eee;
+}
+.nav-item {
+    margin-right: 50px;
+}
+.nav-item a {
+    font-size: 18px;
+    line-height: 35px;
+}
+.nav-tabs {
+    border: 0;
+    margin-bottom: 25px;
+}
+.nav-item a.active,
+.nav-item a:hover {
+    font-weight: 700;
+    border-bottom: 1px solid #313131;
+}
+.tab-content p {
+    margin-bottom: 20px;
+}
+/*---------------------------------------
+------ PRODUCT DETAIL PAGE CSS END ------
+----------------------------------------*/
+
+/*--------------------------------------
+-------- BLOG PAGE CSS START --------
+---------------------------------------*/
+.post-thumbnail {
+    width: 36%;
+}
+.single-post {
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0 0 7px #eee;
+    border: 1px solid #eee;
+}
+.post-details {
+    padding: 5px 25px;
+    width: 64%;
+}
+.post-author {
+    font-weight: 300;
+    opacity: 0.6;
+}
+.post-author p {
+    font-size: 12px;
+    margin: 10px 0 8px;
+}
+.post-details a.read-more {
+    color: #59a934;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+.post-meta {
+    text-align: right;
+}
+.post-meta li {
+    display: inline-block;
+}
+.post-meta a {
+    opacity: 0.6;
+    margin-left: 25px;
+}
+.post-meta a i {
+    margin-right: 8px;
+}
+.post-meta a:hover {
+    opacity: 1;
+}
+.widget {
+    box-shadow: 0 0 7px #eee;
+    border: 1px solid #eee;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.widget-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.widget ul li {
+    border-bottom: 1px solid #ebebeb;
+    padding: 5px 0;
+}
+.widget ul li:last-child {
+    border-bottom: 0;
+}
+.search-form {
+    position: relative;
+    padding-right: 30px;
+}
+.search-form input {
+    background: transparent;
+    width: 100%;
+    border: none;
+}
+.search-form button {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.4;
+}
+.widget {
+    padding: 15px 25px;
+}
+.widget.widget_search {
+    padding: 0
+}
+.widget-blog-info span {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.widget-single-blog {
+    margin-top: 10px;
+}
+.widget-blog-img {
+    width: 30%;
+}
+.widget-blog-info {
+    width: 70%;
+    padding-left: 15px;
+}
+.widget-recent-blog ul li:last-child {
+    border-bottom: 1px solid #eee;
+}
+.widget-recent-blog .load-more {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.widget-recent-blog .load-more:hover {
+    color: #59a934;
+}
+/*-----------------------------------
+--------- BLOG PAGE CSS END ---------
+------------------------------------*/
+
+/*--------------------------------------
+----- BLOG DETAIL PAGE CSS START -----
+---------------------------------------*/
+.single-blog-details,
+.blog-details .contact-form {
+    background: #fff;
+    padding: 40px 50px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 7px #eee;
+}
+.single-blog-details {
+    margin-bottom: 20px;
+}
+.single-blog-details p {
+    margin-top: 25px;
+}
+.single-blog-details-img {
+    margin-top: 20px;
+    box-shadow: 0 0 12px #ccc;
+}
+.blog-details .video-play {
+    margin: 40px 0 0;
+}
+.blog-details .post-meta {
+    position: relative;
+    margin: 50px 0 10px;
+    position: relative;
+    padding-top: 25px;
+}
+.blog-details .post-meta::before {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    height: 2px;
+    width: 400px;
+    content: "";
+    background: #eee;
+}
+blockquote {
+    padding: 20px 35px;
+    border-left: 8px solid #59a934;
+    box-shadow: -3px 3px 15px rgba(204, 204, 204, 0.6);
+    background: #fff;
+    margin: 20px 0 15px 30px;
+    position: relative;
+    font-style: italic;
+    font-weight: 300;
+}
+blockquote:before {
+    content: '\201c';
+    position: absolute;
+    font-size: 50px;
+    line-height: 1;
+    color: #59a934;
+    left: 5px;
+    font-family: 'fontawesome';
+    top: 15px;
+}
+blockquote a {
+    color: #59a934;
+}
+.blog-details .contact-form h2 {
+    margin-bottom: 40px;
+}
+/* comment css */
+
+.comments-list li {
+    margin-top: 35px;
+}
+.comment-thumb {
+    width: 65px;
+    float: left;
+    margin-right: 15px;
+}
+.comment-thumb img {
+    border-radius: 100%;
+}
+.comment-reply-link {
+    float: right;
+}
+.comment-time-ago {
+    font-size: 12px;
+    font-weight: 300;
+}
+.show-comments {
+    display: none;
+}
+.comments-list li ul {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.comments-list li ul li ul {
+    margin-left: 20px;
+}
+.comment-body {
+    overflow: hidden;
+}
+.view-comments {
+    margin-top: 40px;
+    display: block;
+    text-decoration: underline;
+}
+.view-comments:hover,
+.view-comments:focus {
+    text-decoration: underline;
+}
+.comment-area {
+    display: inline-block;
+    width: 100%;
+}
+/*--------------------------------------
+--------- BLOG DETAIL PAGE CSS END -------
+---------------------------------------*/
+
+/*--------------------------------------
+----- CART OVERVIEW PAGE CSS START -----
+---------------------------------------*/
+.breadcrumb-area.theme2 {
+    background-image: url(../img/hero-area/breadcrumb-bg2.jpg);
+}
+.cart-overview {
+    background: #fff;
+    padding: 60px 25px 45px;
+}
+.single-cart-overview {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    padding-left: 125px;
+    position: relative;
+}
+.single-cart-overview-head {
+    border-bottom: 1px solid #ddd;
+}
+.single-cart-overview-head .col-md-4 {
+    margin-bottom: 20px;
+}
+.single-cart-overview-img {
+    left: 5px;
+    position: absolute;
+    top: 0;
+    width: 98px;
+}
+.single-cart-overview-head input {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    width: 45px;
+    text-align: center;
+    padding: 0;
+    background: transparent;
+}
+.single-cart-overview-head .price-tag {
+    font-weight: 300;
+    text-align: right;
+}
+.single-cart-overview-head .price-tag span {
+    font-weight: 600;
+}
+.single-cart-overview-desc {
+    font-size: 13px;
+    margin-top: 25px;
+}
+.single-cart-overview-desc h5 {
+    display: inline-block;
+}
+.single-cart-overview-desc p {
+    margin: 20px 0;
+}
+.single-cart-overview-desc a {
+    font-size: 12px;
+    color: #59a934;
+    font-weight: 400;
+}
+.single-cart-overview-desc a.pull-right {
+    font-size: 14px;
+}
+.total-price {
+    display: inline-block;
+}
+.cart-overview .aquaponic-btn {
+    border-radius: 30px;
+}
+.total-price table tr:last-child {
+    border-top: 1px solid #ddd;
+}
+.total-price table td {
+    width: 50%;
+}
+.total-price table {
+    margin-bottom: 20px;
+}
+.total-price table tr {
+    line-height: 30px;
+}
+/*--------------------------------------
+------ CART OVERVIEW PAGE CSS END ------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- CHECKOUT PAGE CSS START --------
+---------------------------------------*/
+.breadcrumb-area.theme3 {
+    background-image: url(../img/hero-area/breadcrumb-bg3.jpg);
+}
+.checkout-area .contact-form {
+    background: #fff;
+    padding: 40px 20px;
+}
+.contact-form select {
+    background: #f5f5f5;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #eee;
+    display: block;
+    margin-bottom: 17px;
+}
+.checkout-area .contact-form h3 {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.checkout-area .contact-form .aquaponic-btn {
+    margin-top: 15px;
+}
+.checkout-area .contact-form input,
+.checkout-area .contact-form textarea {
+    border-radius: 5px;
+}
+/*--------------------------------------
+--------- CHECKOUT PAGE CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- CART PAGE CSS START --------
+---------------------------------------*/
+.breadcrumb-area.theme4 {
+    background-image: url(../img/hero-area/woman-using-laptop-in-olive-farm-RT6NZUP.jpg);
+}
+.payment-method .contact-form {
+    background: #fff;
+    padding: 60px 70px;
+}
+.contact-form label {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    width: auto;
+}
+.payment-method .contact-form p {
+    display: inline-block;
+    margin-left: 10px;
+}
+.payment-method .contact-form p span {
+    color: #59a934;
+}
+.contact-form form img {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.payment-method .contact-form h3 {
+    margin-bottom: 30px;
+}
+.promo-code-form button {
+    width: 100%;
+}
+.payment-method .contact-form .promo-code-form button {
+    border-radius: 5px;
+}
+.payment-method .contact-form input,
+.payment-method .contact-form textarea {
+    border-radius: 5px;
+}
+.promo-code-form {
+    margin-bottom: 20px;
+}
+.payment-method .contact-container i {
+    bottom: 20%;
+}
+.payment-method .contact-form button {
+    float: none;
+}
+.cart-overview button,
+.checkout-area button,
+.payment-method button {
+    text-transform: capitalize;
+}
+/*--------------------------------------
+----------- CART PAGE CSS END ----------
+---------------------------------------*/
+
+/*--------------------------------------
+---------- 404 PAGE CSS START ----------
+---------------------------------------*/
+.four04 {
+    height: 100vh;
+    text-align: center;
+}
+.display-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.display-table-cell {
+    display: table-cell;
+    padding: 20px 30px;
+    vertical-align: middle;
+}
+.four04 img {
+    opacity: 0.1;
+    transition: all 0.4s;
+}
+.four04 img:hover {
+    opacity: 1;
+}
+.four04 h2 {
+    font-weight: 400;
+    margin: 40px 0 10px;
+}
+.four04 h1 , .four04 h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+.four04 h1 {
+    font-size: 36px;
+}
+.four04 .aquaponic-btn {
+    border-radius: 30px;
+}
+.four04 p {
+    margin: 15px 0 50px;
+}
+/*--------------------------------------
+----------- 404 PAGE CSS END ----------
+---------------------------------------*/
+
+/*----------------------------------------------
+----- LOGIN AND REGISTRATION FORM CSS START -----
+-----------------------------------------------*/
+.login-popup {
+    top: 100%;
+    position: absolute;
+    right: -20px;
+    margin-top: 10px;
+    background: #fff;
+    z-index: 9;
+    max-width: 380px;
+    padding: 25px 35px 30px;
+    width: 380px;
+    color: #313131;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 0 7px #eee;
+}
+.login-popup.contact-form p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.login-popup .contact-container input {
+    border-radius: 5px;
+}
+.login-popup.contact-form p a {
+    font-weight: 400;
+    color: #59a934;
+}
+.login-popup.contact-form h4 {
+    margin-bottom: 25px;
+}
+.sign-with {
+    position: relative;
+}
+.sign-with::before,
+.sign-with::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    vertical-align: middle;
+    bottom: 0;
+    margin: auto;
+    width: 30%;
+    height: 1px;
+    background: #ddd;
+}
+.sign-with::after {
+    left: auto;
+    right: 0;
+}
+.login-with {
+    width: 50%;
+    display: inline-block;
+    margin-left: -6px;
+    margin-top: 10px;
+}
+.login-with i {
+    width: 100%;
+    padding: 15px;
+    background: #415e9b;
+}
+.login-with i.fa-twitter {
+    background: #08afee;
+}
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 300;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.popup-close i {
+    margin: 0 !important;
+}
+.registration-form,
+.login-form {
+    display: none;
+}
+.contact-form input {
+    width: 100%;
+}
+.contact-form input[type=checkbox],
+.contact-form input[type=radio] {
+    width: auto;
+}
+/*--------------------------------------------
+------ LOGIN AND REGISTRATION FORM CSS END ------
+---------------------------------------------*/
+
+/*--------------------------------------
+--------- PRE LOADER STYING CSS --------
+---------------------------------------*/
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 988899;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('../img/loader.gif') no-repeat center center;
+}
+/*--------------------------------------
+------- PRE LOADER STYING CSS END ------
+---------------------------------------*/
