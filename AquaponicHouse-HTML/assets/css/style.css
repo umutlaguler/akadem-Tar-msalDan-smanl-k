@@ -743,10 +743,11 @@ a.slicknav_item.slicknav_row {
     bottom: auto;
     top: -6px;
 }.timeline-para .links .li{
-    list-style: none;
+    margin-right: 50;
 }
-.timeline-para .links .li .a{
- display: inline;
+.timeline-para hr.cizgi{
+    border: 1px solid green;
+    margin-left: -190px;
 }
 .timeline-para h1 {
     margin-bottom: 20px;
